@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .features {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .feature-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .cta {
+    margin-top: 40px;
+  }
+  
+  .cta-button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .insights-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .insight-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .insight-text {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .chatbot-container, .health-insights-container {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .chat-window {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .message {
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  .message.bot {
+    background-color: #e1f5fe;
+    text-align: left;
+  }
+  
+  .message.user {
+    background-color: #c8e6c9;
+    text-align: right;
+  }
+  
+  .auth-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-button, .logout-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4285F4;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .logout-button {
+    background-color: #d9534f;
+  }
+  
+  .dashboard-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form-container input {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-record-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .records-list {
+    margin-top: 20px;
+  }
+  
+  .record-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .medication-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form-container input {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-medication-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .medication-list {
+    margin-top: 20px;
+  }
+  
+  .medication-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .footer nav a:hover {
+    text-decoration: underline;
+  }
+  
