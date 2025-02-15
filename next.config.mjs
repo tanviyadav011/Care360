@@ -1,8 +1,9 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-      appDir: true, // ✅ Ensure App Router is enabled
-    },
-  };
-  
-  export default nextConfig;
-  
+  experimental: {
+    // Remove or comment out this line
+    // appDir: true,
+  },
+};
+
+export default nextConfig;
