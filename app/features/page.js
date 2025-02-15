@@ -1,3 +1,7 @@
+import HealthInsights from "../components/HealthInsights";
+import FitbitData from "../components/FitbitData";
+import Chatbot from "../components/Chatbot";
+
 export default function Features() {
     return (
       <main className="container">
