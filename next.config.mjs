@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    // Remove or comment out this line
-    // appDir: true,
+  output: 'standalone',
+  reactStrictMode: true,
+  images: {
+    domains: ['your-image-source.com'], // Allow images from external sources if needed
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
