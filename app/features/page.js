@@ -1,4 +1,4 @@
-import HealthInsights from "../components/HealthInsights";
+import HealthInsights from "../components/healthInsights";
 import FitbitData from "../components/FitbitData";
 import Chatbot from "../components/Chatbot";
 
