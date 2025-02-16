@@ -5,7 +5,6 @@ import Telemedicine from "./components/Telemedicine";
 import HealthDashboard from "./components/HealthDashboard";
 import MedicationReminder from "./components/MedicationReminder";
 import FitbitData from "./components/FitbitData"; // Replaced FitbitAuth with FitbitData
-import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   return (
@@ -74,9 +73,7 @@ export default function Home() {
         <h2>Start Your Health Journey Today</h2>
         <a href="/features" className="cta-button">Explore Features</a>
       </section>
-
-      {/* Toast Notifications */}
-      <ToastContainer />
+      
     </main>
   );
 }
