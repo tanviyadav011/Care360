@@ -1,6 +1,9 @@
-import HealthInsights from "../components/healthInsights";
-import FitbitData from "../components/FitbitData";
-import Chatbot from "../components/Chatbot";
+import dynamic from "next/dynamic";
+
+// Import components dynamically with SSR disabled
+const HealthInsights = dynamic(() => import("../components/healthInsights"), { ssr: false });
+const FitbitData = dynamic(() => import("../components/FitbitData"), { ssr: false });
+const Chatbot = dynamic(() => import("../components/Chatbot"), { ssr: false });
 
 export default function Features() {
   return (
